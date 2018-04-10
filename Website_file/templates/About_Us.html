@@ -1,0 +1,107 @@
+<html lang="en">
+<head >
+<title>The Coffee House</title>
+<link rel="stylesheet" href={{ url_for('static',filename='css/style.css')}}>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<div id="Coffee">
+<header>
+<h1><b>The Coffee House</b></h1></header>
+
+<nav>
+<ul class="subheader">
+  <li class="subheader"><a href="{{ url_for('Assignment1') }}"><b>Home</b></a></li>
+  <li class="subheader"><a href="{{ url_for('Menu') }}"><b>Menu</b></a></li>
+  <li class="subheader"><a href="{{ url_for('orderOnline') }}"><b>Order Online</b></a></li>
+  <li class="subheader"><a href="{{ url_for('About_Us') }}"><b>About</b></a></li>
+</ul>
+</nav>
+
+
+<main>
+<h2>About The Coffee House</h2>
+
+The Coffee House started its first outlet in the year 2016 and year after receiving a tremendous response from the customers
+the Founders has decided to start a chain in Boston city.
+Bieng, the first of its own kind of Cafe, The Coffee house provides its customer a soothing ambience. we provide
+free wifi to our customers so that their work continous with their coffee. we also provide self-service to the customers do that
+they can place their orders when they are ready. We do have snacks like burger, pizza, sandwiches but coffee is our speciality.<br>
+
+Apart from this, we also deliver iced coffee to your door steps. It is really easy to place your order online using our site.
+Once you registered to our website, you will receive a special discount offers in weekly newsletter. We are giving new experience to
+our customers by providing happy hour services, where they get a one plus one offer on any beverages of their choice. To cheer up our
+customer we have a special event every evening 7pm to 9m.
+
+
+<br><br><br><br>
+<h3>Businee Hours</h3>
+<table>
+  <tr>
+    <th>Day's</th>
+    <th>Opening Hours</th>
+    <th>Closing Hours</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>7.00 am</td>
+    <td>9.00 pm</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>7.00 am</td>
+    <td>9.00 pm</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>7.00 am</td>
+    <td>9.00 pm</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>7.00 am</td>
+    <td>9.00 pm</td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td>7.00 am</td>
+    <td>9.00 pm</td>
+  </tr>
+  <tr>
+    <td>Saturday</td>
+    <td>7.00 am</td>
+    <td>4.00 pm</td>
+  </tr>
+    <tr>
+    <td>Sunday</td>
+    <td>closed</td>
+    <td>- </td>
+  </tr>
+</table>
+
+
+</main>
+<footer>
+<i>Copyright &copy; The Coffe House<i><br>
+   <a href="TermsConditions.html"><b>Terms & Conditions</b></a><br>
+    Mail <b>Anurag Singh:</b> <a href="mailto:singh.anura@husky.neu.edu">singh.anura@husky.neu.edu</a>
+</footer>
+</div>
+</body>
+</html>

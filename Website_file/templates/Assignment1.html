@@ -1,0 +1,76 @@
+
+<html lang="en">
+<head >
+<title>The Coffee House</title>
+<link rel="stylesheet" href={{ url_for('static',filename='css/style.css')}}>
+</head>
+<body>
+<div id="Coffee">
+
+<header>
+<h1><b>The Coffee House</b></h1>
+</header>
+
+<nav>
+<ul class="subheader">
+  <li class="subheader"><a href="{{ url_for('Assignment1') }}"><b>Home</b></a></li>
+  <li class="subheader"><a href="{{ url_for('Menu') }}"><b>Menu</b></a></li>
+  <li class="subheader"><a href="{{ url_for('orderOnline') }}"><b>Order Online</b></a></li>
+  <li class="subheader"><a href="{{ url_for('About_Us') }}"><b>About</b></a></li>
+</ul>
+</nav>
+
+<main>
+
+<h2 style="font-family:Times New Roman">WE PROVIDE THE BEST COFFEE <br> In Your City!!!</h2>
+
+<p><span class="desc"></span> <br>
+From the beginning, we envisioned 'The Coffee House' as more than just a place to get coffee.
+We strive to create a comfortable,
+inviting atmosphere and to be an integral part of the community. Many friendships,
+including several marriages, have developed at 'The Coffee House'. Several books and many theses have been written at our tables.
+We take pride in being a good neighbor and local gathering place. We are dedicated to maintaining this feeling. <br>
+
+
+</p>
+
+<div >
+  <img  src="static/images/coffeehouse.jpg" style="width:100%">
+</div>
+
+<br>
+<b style="color:#D2691E">Check out our exclusive offers:</b><br>
+<ul>
+  <li>Easy to place your order online</li>
+  <li>Brewed iced coffee at your door step</li>
+  <li>We are now serving at two locations in Boston city!</li>
+  <li>"Pick up your order" services also available</li>
+
+</ul>
+<br>
+  <span class="desc" style="font-size:14px;color:#D2691E"><b>OUR LOCATIONS:</b></span><br>
+   <div id="location">
+  <div id="description">
+  <img src="static/images/location1.png" alt="Scene" style=" border: 1px black; float:left;width:100px;height:100px;padding:2px" align="left"><br>
+
+  <i>150 McGreevey Way<br>
+  Mission Main, Boston 021120<br>
+  857-294-5684<br><br><br></i></div>
+  <div id="description">
+  <img src="static/images/location2.jpg" alt="Scene" style=" border: 1px black; float:left;width:100px;height:100px;padding:2px;" align="left"><br>
+  <i>2073 Mission Hill<br>
+  Huntington Ave, Boston 021120<br>
+  857-294-5684</i><br><br><br>
+   </div>
+   </div>
+</main>
+
+<footer>
+<i>Copyright &copy; The Coffe House<i><br>
+   <a href="TermsConditions.html"><b>Terms & Conditions</b></a><br>
+    Mail <b>Anurag Singh:</b> <a href="mailto:singh.anura@husky.neu.edu">singh.anura@husky.neu.edu</a>
+</footer>
+
+</div>
+</body>
+</html>

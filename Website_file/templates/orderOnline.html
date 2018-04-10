@@ -1,0 +1,55 @@
+
+<html lang="en">
+<head >
+<title>The Coffee House</title>
+<link rel="stylesheet" href={{ url_for('static',filename='css/style.css')}}>
+</head>
+<body>
+<div id="Coffee">
+<header>
+<h1>The Coffee House</h1></header>
+
+<nav>
+<ul class="subheader">
+  <li class="subheader"><a href="{{ url_for('Assignment1') }}"><b>Home</b></a></li>
+  <li class="subheader"><a href="{{ url_for('Menu') }}"><b>Menu</b></a></li>
+  <li class="subheader"><a href="{{ url_for('orderOnline') }}"><b>Order Online</b></a></li>
+  <li class="subheader"><a href="{{ url_for('About_Us') }}"><b>About</b></a></li>
+</ul>
+</nav>
+
+
+<main>
+<h2>Place Your Order here!!</h2>
+<div id = "form">
+<form>
+  First name:<br>
+  <input type="text" name="firstname" value="First Name">
+  <br><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Last Name">
+  <br><br>
+  Contact Number:<br>
+  <input type="text" name="Contact Number" value="Contact">
+  <br><br>
+  Email Address:<br>
+  <input type="text" name="Email Address" value="Email ID">
+  <br><br>
+  Payment Method: <br>
+  <input type="radio" name="payment" value="Credit Card" checked>Credit Card &nbsp;  &nbsp;
+  <input type="radio" name="payment" value="Debit Card"> Debit Card &nbsp; &nbsp;
+  <input type="radio" name="payment"value="PayPal"> PayPal <br><br>
+
+  <input type="submit" id="submit" value="Check Out" style="height:40px; width:80px" />
+</form>
+</div>
+</main>
+
+<footer>
+<i>Copyright &copy; The Coffe House<i><br>
+   <a href="TermsConditions.html"><b>Terms & Conditions</b></a><br>
+    Mail <b>Anurag Singh:</b> <a href="mailto:singh.anura@husky.neu.edu">singh.anura@husky.neu.edu</a>
+</footer>
+</div>
+</body>
+</html>

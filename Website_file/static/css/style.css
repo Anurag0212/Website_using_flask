@@ -1,0 +1,101 @@
+body { background-color: #000000;
+      color: #4B0082;
+	  font-family: Arial, Helvetica, sans-serif;
+
+}
+ul.subheader {
+    list-style-type: none;
+	background-position: right;
+	text-align: center;
+    margin: 0;
+    padding: 0;
+	padding-top: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li.subheader {
+    float: left;
+}
+
+li.subheader a {
+    display: block;
+    color:#D2691E;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.subheader a:hover {
+    background-color: #111111;
+}
+#Coffee { width: 90%;
+           margin-left: auto;
+		   margin-right: auto;
+		   background-color: #FFF8DC;
+		   min-width: 960px;
+		   max-width: 2048px;
+		   box-shadow: 3px 3px 3px #333333;
+}
+header { background-color: 	#333333  ;
+       color: #D2691E;
+	   background-image: url(sunset.jpg);
+	   background-position: right;
+	   background-repeat: no-repeat;
+	   text-align: center;
+	   height: 70px;
+	   padding-top: 0px;
+}
+
+h1 { margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia;
+	text-align: center;
+} 
+nav { background-color: #FFFFFF;
+     font-weight: bold; 
+	 text-align: center;
+	 padding: 10px;
+}
+nav a { text-decoration: none; 
+}
+main { padding: 1px 20px 20px 20px; 
+      display: block;}
+h2 { color: #D2691E;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center;
+}
+h3 { color: #D2691E;
+	font-family: Georgia, "Times New Roman", serif;
+}
+dt { color: #D2691E; 
+}
+.desc { color: #D2691E; 
+          font-weight: bold;
+}	
+ul { list-style-image: url(marker.gif);
+}   
+#description { font-size: 100%; 
+text-align: left;
+
+border-radius: 5px
+}
+#location {
+	font-size: 100%; 
+text-align: left;
+border:2px double black;
+
+	
+}
+
+footer { font-size: 75%;
+       font-style: italic;
+	   font-family: Georgia, "Times New Roman", serif;
+	   text-align: center;
+	   padding: 20px;
+}
+
+
+		   background-size: 100% 100%;
+}
